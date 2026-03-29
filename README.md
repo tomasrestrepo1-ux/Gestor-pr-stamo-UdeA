@@ -1,4 +1,4 @@
-![imagen](https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/Documento%20A4%20Cartel%20Horizontal%20Se%C3%B1al%20Abierto%20Cerrado%20Elegante%20Creativo%20Sencillo%20Beige%20y%20Granate.jpg)
+![imagen](https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/bob%20rico.jpg)
 
 # **Gestor-prestamo-UdeA🤑🤑**
 En este repositorio Crearemos un proyecto de prestamos bancarios  
