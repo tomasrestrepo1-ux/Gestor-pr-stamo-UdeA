@@ -1,4 +1,5 @@
-[![War thunder](https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/Captura%20de%20pantalla%202026-03-19%20105038.png)](https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/Documento%20A4%20Cartel%20Horizontal%20Se%C3%B1al%20Abierto%20Cerrado%20Elegante%20Creativo%20Sencillo%20Beige%20y%20Granate.jpg)
+https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/Documento%20A4%20Cartel%20Horizontal%20Se%C3%B1al%20Abierto%20Cerrado%20Elegante%20Creativo%20Sencillo%20Beige%20y%20Granate.jpg
+
 # **Gestor-prestamo-UdeA🤑🤑**
 En este repositorio Crearemos un proyecto de prestamos bancarios  
 # *Integrantes*
