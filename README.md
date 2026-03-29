@@ -1,7 +1,7 @@
 ![imagen](https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/bob%20rico.jpg)
 
 # **Gestor de prestamos🤑🤑**
-En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamboa, donde adminisitre a quien le presta y que presto. 
+En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamboa, donde administre a quien le presta y lo que presto. 
 # *Integrantes*
 ## **Tomas Restrepo**
 ### *Descripcion*
@@ -14,11 +14,11 @@ En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamb
 # *especificaciones*
 ## *funcionales*
 > 1. Registrar usuarios con: su nombre, apellido, documento de identificacion, correo electronico, y tiempo de prestamo definido.
-> 2. Registrar productos con: nombre de producto, una categoria, precio d ecompra, un ID para el producto, y estado en el que se encuentra.
+> 2. Registrar productos con: nombre de producto, una categoria, precio de compra, un ID para el producto, y estado en el que se encuentra.
 > 3. Registrar prestamos.
 > 4. Generar ventas.
 > 5. Consultar estado general del prestamo.
-> 6. Administrar: total de pretamos realizados, items devueltos, items vendidos, pago realizado, lista de usuarios, usuario con mayor y menos cantidad de prestamos.
+> 6. Administrar: total de pretamos realizados, items devueltos, items vendidos, pago realizado, lista de usuarios, usuario con mayor y menor cantidad de prestamos.
 ## *no funcionales*
 > Al administrar, los detalles que pueda ver el cliente sean iguales a los que conoce en la realidad, el nivel de satisfacción de los usuarios sea lo suficientemente elevado para saber si vale la pena el sofware.
 # *Licencia*
