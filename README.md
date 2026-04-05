@@ -31,7 +31,7 @@ En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamb
 > 6. Entrega final -> 4 horas
 > *Para un total de 50 horas de trabajo*
 ## Cronograma
-![imagen](
+![imagen](https://raw.githubusercontent.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA/refs/heads/main/Img/6f3f84cc-bcb5-4eec-ab77-01f86371c5fc.jfif)
 # *Licencia*
 
 <a href="https://github.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA">Plata</a> © 2026 by <a href="https://github.com/tomasrestrepo1-ux">Tomas Restrepo</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
