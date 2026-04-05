@@ -5,12 +5,12 @@ En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamb
 # *Integrantes*
 ## **Tomas Restrepo**
 ### *Descripcion*
-> Soy estudiante de ingenieria industrial de la universidad de Antioquia (ingresa tus habilidades y fortalezas)
+> Soy estudiante de ingenieria industrial de la universidad de Antioquia. 
 ## **Juan Paternina**
 ### *Descripcion*
 > Soy estudiante de ingenieria industrial de la universidad de Antioquia. Destaco por mi diciplina, actitud y capacidad de memorizacion.
 # *Vision*
-> esperamos tener alto aprendizaje con este proyecto, desarrolar una herramienta funcional que cumpla las espectativas de todos.
+> esperamos tener alto aprendizaje con este proyecto, desarrollar una herramienta funcional que cumpla las espectativas de todos.
 # *especificaciones*
 ## *funcionales*
 > 1. Registrar usuarios con: su nombre, apellido, documento de identificacion, correo electronico, y tiempo de prestamo definido.
