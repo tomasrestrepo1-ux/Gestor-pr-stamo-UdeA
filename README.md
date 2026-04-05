@@ -35,13 +35,13 @@ En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamb
 ## Presupuesto del proyecto 
 > el valor de hora se calculara dividiendo un salario minimo (1.750.000) por las 50 horas que dura el trabajo. 1.750.000 / 50 = 35.000
 > *Haciendo asi que el valor de cada actividad sea de:*
-> Requisitos	->	210.000
-> Diseño	->	280.000
-> Desarrollo	->	700.000
-> Pruebas	 -> 210.000
-> Documentación	 -> 210.000
-> Entrega final	->	140.000
-> Total	->	1.750.000
+> 1. Requisitos	->	210.000
+> 2. Diseño	->	280.000
+> 3. Desarrollo	->	700.000
+> 4. Pruebas	 -> 210.000
+> 5. Documentación	 -> 210.000
+> 6. Entrega final	->	140.000
+> 7. Total	->	1.750.000
 # *Licencia*
 
 <a href="https://github.com/tomasrestrepo1-ux/Gestor-pr-stamo-UdeA">Plata</a> © 2026 by <a href="https://github.com/tomasrestrepo1-ux">Tomas Restrepo</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a><img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nc.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;"><img src="https://mirrors.creativecommons.org/presskit/icons/nd.svg" alt="" style="max-width: 1em;max-height:1em;margin-left: .2em;">
