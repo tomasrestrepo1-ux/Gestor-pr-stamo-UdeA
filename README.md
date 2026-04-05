@@ -5,7 +5,7 @@ En este repositorio crearemos un gestor de pretamos para el cliente Michael Gamb
 # *Integrantes*
 ## **Tomas Restrepo**
 ### *Descripcion*
-> Soy estudiante de ingenieria industrial de la universidad de Antioquia. 
+> Soy estudiante de ingenieria industrial de la universidad de Antioquia. Me destaco por mi capacidad de trabajar bajo presion, resolver problemas y por mi buen compañerismo.
 ## **Juan Paternina**
 ### *Descripcion*
 > Soy estudiante de ingenieria industrial de la universidad de Antioquia. Destaco por mi diciplina, actitud y capacidad de memorizacion.
