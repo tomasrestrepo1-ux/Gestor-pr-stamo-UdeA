@@ -49,7 +49,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
 
 ---
 
-## 🚀 Resumen del Ciclo de Lanzamientos
+##  Resumen del Ciclo de Lanzamientos
 
 | Versión | Denominación | Alcance / Hito Clave | Línea del Tiempo (Días) | Avance Estimado |
 | :--- | :--- | :--- | :--- | :--- |
@@ -61,7 +61,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
 
 ---
 
-## 📈 Detalle por Versiones y Avance Incremental
+##  Detalle por Versiones y Avance Incremental
 
 ### 🔹 Versión 0.1.0 — Alpha Inicial (Fase de Definición y Arquitectura)
 * **Línea del tiempo:** Días 1 a 14 (Semanas 1 y 2)
@@ -97,7 +97,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
   * Reporte, priorización y solución inmediata de errores (bugs), fallos de interfaz y optimización de consultas en la base de datos.
 * **Entregables técnicos:** Versión candidata a liberación (*Release Candidate*), congelamiento de código (*Code Freeze*).
 
-### 🏆 Versión 1.0.0 — Versión de Producción (Entrega Final)
+###  Versión 1.0.0 — Versión de Producción (Entrega Final)
 * **Línea del tiempo:** Días 36 a 42 (Semana 6)
 * **Avance acumulado:** 100%
 * **Descripción del incremento:**
