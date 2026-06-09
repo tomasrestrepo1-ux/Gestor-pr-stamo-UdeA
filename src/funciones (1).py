@@ -154,7 +154,7 @@ def RegistrarPrestamo(usuarios: dict, inventario: dict, prestamos: dict):
     cedula_cliente = input("Favor ingresar la cédula del usuario a prestar: ")
     if cedula_cliente not in usuarios:
         print("Error: El préstamo no se puede realizar.")
-        print("Loans_Nicker, el usuario no existe. Deberá registrar al usuario nuevo en la opción 1 del menú.")
+        print("Gestor de prestamos🤑🤑, el usuario no existe. Deberá registrar al usuario nuevo en la opción 1 del menú.")
         return False 
     print("\n--- OBJETOS ACTUALES EN EL INVENTARIO ---")
     if len(inventario) == 0:
