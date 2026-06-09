@@ -1,1 +1,113 @@
+markdown_content_v2 = """# Manual de Usuario - Gestor de prestamos🤑🤑
 
+Bienvenido al manual de usuario oficial de **Gestor de prestamos🤑🤑**, tu sistema integrado para la gestión, control y auditoría de préstamos de artículos y gestión de inventario. Este documento detalla el funcionamiento de la aplicación, las reglas de negocio aplicadas y cómo operar el sistema de manera eficiente.
+
+---
+
+## 1. Introducción y Acceso al Sistema
+
+**Gestor de prestamos🤑🤑** es una consola interactiva diseñada para agilizar el registro de usuarios, inventariar artículos por categorías específicas, controlar los tiempos de préstamo y automatizar las penalizaciones o facturaciones en caso de retrasos.
+
+Al ejecutar el programa principal (`main.py`), serás recibido por el menú principal interactivo:
+2. Flujo de Operación por Módulos
+Opciones del Menú Principal
+1. Registrar Usuario
+Permite dar de alta a nuevos clientes en el sistema. Para mitigar errores de digitación, la aplicación aplica validaciones estrictas en tiempo real:
+
+Cédula: Debe ser estrictamente numérica y contener entre 3 y 15 dígitos.
+
+Nombre y Apellido: Deben tener una longitud mínima de 3 caracteres y no contener ningún número (0-9).
+
+Correo Electrónico: Debe poseer obligatoriamente una estructura que incluya un carácter @ y finalizar exactamente en la extensión .com.
+
+Días del Préstamo Asignados: Únicamente se permiten los plazos estandarizados del sistema: 5, 10, 15 o 30 días.
+
+⚠️ Nota: Si algún dato no cumple con las reglas, el sistema mostrará un saludo de advertencia formal y regresará de forma segura al menú principal para que lo intentes de nuevo.
+
+2. Registrar Préstamo e Ítems
+Este módulo se subdivide en dos operaciones críticas para el almacén:
+
+Sub-opción 1: Registrar un NUEVO Ítem en el almacén
+Permite agregar existencias físicas al inventario. El sistema solicitará:
+
+Nombre del Ítem: Mínimo 3 caracteres.
+
+Categoría: Debe ser exactamente una de las siguientes opciones válidas (el sistema auto-formatea la primera letra en mayúscula): Videojuegos, Libros, Música y video, Herramientas, Dinero, o Misceláneo y varios.
+
+Precio de Compra: Debe ser un valor numérico positivo (acepta un único punto decimal para centavos).
+
+Calificación de Estado: Un puntaje entero del 0 al 10. El sistema lo traducirá automáticamente en un estado textual:
+
+9 a 10: Excelente (Perfectas condiciones)
+
+7 a 8: Bueno (Tiene detalles menores)
+
+4 a 6: Regular (Desgaste notable pero funcional)
+
+1 a 3: Malo (Necesita reparación urgente)
+
+0: Inservible (Artículo para renovar)
+
+Generación de ID Automático: El sistema genera un código identificador único combinando las 3 primeras letras de la categoría en mayúsculas y un consecutivo incremental (Ej: VID-0, LIB-1).
+
+Sub-opción 2: Registrar el PRÉSTAMO de un Ítem a un usuario
+Crea el vínculo de asignación de un artículo a un cliente.
+
+Ingresa la cédula del cliente. Si no existe, el sistema bloqueará el proceso indicando que primero debe registrarse en la Opción 1.
+
+El sistema listará en pantalla todos los artículos disponibles en el almacén con su respectivo ID, nombre y estado.
+
+Ingresa el ID del artículo que deseas prestar.
+
+Validación de Disponibilidad: Si el artículo ya está asignado a otro usuario en calidad de préstamo activo, el sistema arrojará un error impidiendo la doble asignación.
+
+3. Registrar Devolución (Regla Crítica de los 30 Días)
+Gestiona el retorno de los artículos y evalúa los plazos de entrega. Al ingresar la cédula del usuario, el sistema desplegará un submenú numerado con los ítems que tiene bajo su posesión. Luego, solicitará ingresar los días reales transcurridos desde que se efectuó el préstamo.
+
+Caso A (Plazo Legal ≤ 30 días): La devolución se procesa de forma ordinaria. El artículo se remueve de sus obligaciones y se genera un archivo de texto plano como comprobante físico llamado: certificado_[CEDULA]_[ID_ITEM].txt.
+
+Caso B (Infracción > 30 días - Venta Forzosa): Si el artículo ha estado retenido por más de 30 días, el sistema aplica la política corporativa de penalización: el ítem se da por vendido de manera obligatoria al usuario. Se calcula un impuesto por concluidez del 23% sobre el precio original de adquisición y se genera automáticamente una factura legal en formato de texto plano con el nombre factura_[CEDULA]_[ID_ITEM].txt, sumando dicho total a los ingresos acumulados del administrador.
+
+4. Consultar Ítems con más de 30 días
+Funciona como una herramienta preventiva de auditoría para el encargado del almacén. El sistema recorre todos los préstamos vigentes y solicita al operador digitalizar los días que llevan en circulación. Si el artículo excede los 30 días, se listará en una sección de alertas críticas detallando el precio de adquisición y la advertencia explícita de cobro con el impuesto del 23%. El sistema sugerirá formalmente proceder a la Opción 3 para liquidar la cuenta.
+
+5. Consultar Artículos Prestados (Ordenamiento y Estadísticas)
+Genera reportes de control del inventario externo. Esta opción automatiza dos pasos:
+
+Recopila la base de datos de préstamos en tiempo real y escribe un archivo físico estructurado llamado registro_prestamos.txt.
+
+Lee dicho archivo e implementa un algoritmo de ordenamiento de burbuja para clasificar y mostrar en consola los artículos prestados organizados descendentemente de Mayor a Menor cantidad de días permitidos.
+
+Adicionalmente, calcula y despliega el siguiente bloque analítico en consola:
+
+Total de artículos actualmente en circulación.
+
+Promedio aritmético exacto de tiempo de préstamos.
+
+Identificación del préstamo más antiguo (Máximo de días).
+
+Identificación del préstamo más reciente (Mínimo de días).
+
+6. Módulo de Administrador
+Zona restringida para personal de gerencia y auditoría de Gestor de prestamos🤑🤑. Requiere credenciales de acceso para habilitar el Panel de Control.
+
+Credenciales Autorizadas de Fábrica:
+
+Juan -> juan123
+
+tomas -> tomas123
+
+julian -> julian123
+
+Al ingresar correctamente, se desplegará el Panel de Control - Administrador, un reporte macro que consolida:
+
+Métricas absolutas de rendimiento: Préstamos totales históricos, devoluciones exitosas y cantidad de ventas forzosas realizadas.
+
+Contabilidad general: Total de caja e ingresos percibidos por penalizaciones de facturación.
+
+Censo de Clientes: Listado completo de usuarios registrados con su Cédula, Nombre y Apellido.
+
+Análisis de Comportamiento Extremo: Identifica de forma algorítmica al Usuario con la mayor cantidad de préstamos activos y al Usuario con la menor cantidad, permitiendo enfocar estrategias de fidelización o control de riesgos.
+
+7. Salir
+Garantiza un cierre limpio de la aplicación y de la persistencia de datos temporales en consola, despidiéndose con el lema del software: Gracias por usar Gestor de prestamos 🤑🤑.
