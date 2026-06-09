@@ -17,7 +17,7 @@ def MostrarMenu():
     menu = f"""{separador}
 {separador}
 {gest}
-Bienvenido a Loans_Nicker
+Bienvenido a Gestor de prestamos🤑🤑
     1. Registrar Usuario
     2. Registrar Prestamo e Items
     3. Registrar Devolucion
