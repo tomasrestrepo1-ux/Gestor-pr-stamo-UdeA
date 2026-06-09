@@ -1,4 +1,4 @@
-markdown_content_v2 = """# Manual de Usuario - Gestor de prestamos🤑🤑
+# Manual de Usuario - Gestor de prestamos🤑🤑
 
 Bienvenido al manual de usuario oficial de **Gestor de prestamos🤑🤑**, tu sistema integrado para la gestión, control y auditoría de préstamos de artículos y gestión de inventario. Este documento detalla el funcionamiento de la aplicación, las reglas de negocio aplicadas y cómo operar el sistema de manera eficiente.
 
@@ -22,7 +22,7 @@ Correo Electrónico: Debe poseer obligatoriamente una estructura que incluya un 
 
 Días del Préstamo Asignados: Únicamente se permiten los plazos estandarizados del sistema: 5, 10, 15 o 30 días.
 
-⚠️ Nota: Si algún dato no cumple con las reglas, el sistema mostrará un saludo de advertencia formal y regresará de forma segura al menú principal para que lo intentes de nuevo.
+Nota: Si algún dato no cumple con las reglas, el sistema mostrará un saludo de advertencia formal y regresará de forma segura al menú principal para que lo intentes de nuevo.
 
 2. Registrar Préstamo e Ítems
 Este módulo se subdivide en dos operaciones críticas para el almacén:
