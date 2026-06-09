@@ -63,7 +63,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
 
 ##  Detalle por Versiones y Avance Incremental
 
-### 🔹 Versión 0.1.0 — Alpha Inicial (Fase de Definición y Arquitectura)
+###  Versión 0.1.0 — Alpha Inicial (Fase de Definición y Arquitectura)
 * **Línea del tiempo:** Días 1 a 14 (Semanas 1 y 2)
 * **Avance acumulado:** 15%
 * **Descripción del incremento:**
@@ -71,7 +71,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
   * Finalización del **Diseño del sistema** (Semana 2), incluyendo diagramas de arquitectura, modelo de entidad-relación de la base de datos y maquetado inicial (wireframes) de las interfaces de usuario.
 * **Entregables técnicos:** Documentación técnica inicial y repositorio de código inicializado con la estructura del proyecto.
 
-### 🔹 Versión 0.2.0 — Alpha Funcional (Gestión de Entidades Base)
+###  Versión 0.2.0 — Alpha Funcional (Gestión de Entidades Base)
 * **Línea del tiempo:** Días 8 a 28 (Semanas 2 a 4)
 * **Avance acumulado:** 45%
 * **Descripción del incremento:**
@@ -80,7 +80,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
   * Registro, catalogación y control de inventario de los ítems/artículos disponibles para el flujo del sistema.
 * **Entregables técnicos:** Base de datos desplegada con datos de prueba iniciales e interfaces de administración funcionales.
 
-### 🔹 Versión 0.5.0 — Beta Inicial (Núcleo Operativo del Sistema)
+###  Versión 0.5.0 — Beta Inicial (Núcleo Operativo del Sistema)
 * **Línea del tiempo:** Días 15 a 35 (Semanas 3 a 5)
 * **Avance acumulado:** 80%
 * **Descripción del incremento:**
@@ -89,7 +89,7 @@ Este plan describe la evolución de las versiones del software y su avance incre
   * Integración modular entre los usuarios/ítems (v0.2.0) y las nuevas operaciones financieras y de préstamo.
 * **Entregables técnicos:** Despliegue en entorno de *Staging* o pruebas internas con los flujos principales punta a punta operativos.
 
-### 🔹 Versión 0.9.0 — Beta Candidate (Fase de Estabilización y Calidad)
+###  Versión 0.9.0 — Beta Candidate (Fase de Estabilización y Calidad)
 * **Línea del tiempo:** Días 29 a 35 (Semana 5)
 * **Avance acumulado:** 95%
 * **Descripción del incremento:**
